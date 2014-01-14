@@ -26,18 +26,21 @@
 
     {
 
-        "author":"(3) Woody Allen",
+        "author":"Abraham Lincoln",
  
-        "quote":"(3) If you're not failing every now and again, it's a sign you're not doing anything very innovative."
+        "quote":"Don't worry when you are not recognized, but strive to be worthy of recognition."
 
     },
 
     {
 
-        "author":"(4) Woody Allen",
+        "author":"Martin Luther King Jr",
  
-        "quote":"(4) If you're not failing every now and again, it's a sign you're not doing anything very innovative."
+        "quote":"The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy."
 
-    }
-
+    },
+	{
+		"author":"Abraham Lincoln",
+		"quote":"I will prepare and some day my chance will come."
+	}
 ]

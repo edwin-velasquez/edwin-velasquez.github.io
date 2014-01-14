@@ -227,6 +227,7 @@ body {
 .resume {
 	display: block;
 	text-align: center;
+	margin-bottom: 25px;
 }
 
 .resume .text{
