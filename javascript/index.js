@@ -16,8 +16,8 @@ $(document).ready(function() {
     function highlightNavigation(position) {
         var nav_height = $(".nav").height();
         for (var i = (location.length - 1); i >= 0; i--) {
-            if (position > (location[i][1] - nav_height)) {
-                console.log(position + "," + location[i]);
+            if (position >= (location[i][1] - nav_height)) {
+                //console.log(position + "," + location[i]);
                 $('.selected').removeClass('selected');
                 $(location[i][0]).addClass('selected');
                 i = -1;
@@ -40,7 +40,7 @@ $(document).ready(function() {
         $('body,html').animate({
             scrollTop: (loc - margin)
         }, speed);
-        console.log(speed);
+        //console.log(speed);
 		
     }
 
