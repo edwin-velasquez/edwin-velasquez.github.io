@@ -59,9 +59,10 @@ $(document).ready(function() {
                 var new_data = $(data, ".content")
                 $("#project_body").html(new_data);
                 $(window).ready(function() {
-                    $("#project_body").show();
-                    scrollToLoc(null, ".project_header");
-                    setLocations();
+                    $("#project_body").show("fast", function(){
+						scrollToLoc(null, ".project_header");
+                    	setLocations();
+					});
                 });
             });
         }
@@ -87,6 +88,7 @@ $(document).ready(function() {
         $(".quote").append(quote);
         $(".creator").append("- " + author);
     }, "json");
+	
     $('#nav_home').on('click', function(event) {
         scrollToLoc(event, "#home")
     });
