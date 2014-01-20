@@ -123,13 +123,30 @@ body {
 	font-weight:500;
 }
 
-.header.progress_header {
+.header .progress_header {
 	font-size: 16px;
-	display:list-item;
-	list-style:circle;
 	text-align: left;
+	width: 50%;
 	
 }
+
+.header .progress_link {
+	font-size: 16px;
+	width: 50%;
+	text-align: right;
+}
+
+.header .progress_link a {
+	font-family: Droid Sans, sans-serif;
+    font-size: 16px;
+    color: #c9884d;
+	text-decoration:none
+}
+
+.header .progress_link a:visited {
+	color: #c9884d;
+}
+
 
 .quote_box {
     width: 100%;
@@ -259,6 +276,11 @@ body {
 	text-decoration:none;
 	
 }
+
+.project_link a:visited {
+	color: #c9884d;
+}
+
 .github_link {
 	width: 50%;
 	text-align: right;
@@ -269,6 +291,10 @@ body {
     color: #c9884d;
 	font-weight: 500;
 	text-decoration:none;
+}
+
+github_link a:visited {
+	color: #c9884d;
 }
 
 .content table {
