@@ -124,21 +124,20 @@ body {
 }
 
 .header .progress_header {
-	font-size: 16px;
+	font-size: 14px;
 	text-align: left;
 	width: 50%;
 	
 }
 
 .header .progress_link {
-	font-size: 16px;
 	width: 50%;
 	text-align: right;
 }
 
 .header .progress_link a {
 	font-family: Droid Sans, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #c9884d;
 	text-decoration:none
 }
