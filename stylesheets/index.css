@@ -111,7 +111,7 @@ body {
     color: #c9884d;
     margin-top: 20px;
     margin-bottom: 20px;
-	font-weight:600;
+	font-weight:575;
 }
 
 .header.project_header {
@@ -121,7 +121,7 @@ body {
 .header.project_sub_header {
 	font-size: 18px;
 	text-align: left;
-	font-weight:600;
+	font-weight:575;
 }
 
 .header .progress_header {
@@ -160,7 +160,7 @@ body {
     margin-left: 60px;
     margin-right: 60px;
     text-align: center;
-	/*font-weight: 600;*/
+	/*font-weight: 575;*/
 }
 
 .quote_box .intro {
@@ -272,7 +272,7 @@ body {
 	font-family: Droid Sans, sans-serif;
     font-size: 16px;
     color: #c9884d;
-	font-weight:600;
+	font-weight:575;
 	text-decoration:none;
 	
 }
@@ -289,7 +289,7 @@ body {
 	font-family: Droid Sans, sans-serif;
     font-size: 16px;
     color: #c9884d;
-	font-weight: 600;
+	font-weight: 575;
 	text-decoration:none;
 }
 
